@@ -7,7 +7,7 @@ const onlineKioskas = new Shop('Meskiuko kioskas', 'EUR');
 onlineKioskas.intro();
 // Hi, we are "Meskiuko kioskas".\nUse .items() method to get list of items to purchase.\nUse .order() method to get your order details.
 
-// onlineKioskas.addItem('obuolys', 130);
+onlineKioskas.addItem('obuolys', 130);
 // KOMENTARAS: pavadinimas mazosiomis
 // "Meskiuko kioskas" sells obuolys for 1.30 EUR now!
 
