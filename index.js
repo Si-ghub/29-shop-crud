@@ -11,19 +11,19 @@ onlineKioskas.addItem('obuolys', 130);
 // KOMENTARAS: pavadinimas mazosiomis
 // "Meskiuko kioskas" sells obuolys for 1.30 EUR now!
 
-// onlineKioskas.addItem('morka', 65);
+onlineKioskas.addItem('morka', 65);
 // "Meskiuko kioskas" sells morka for 0.65 EUR now!
 
-// onlineKioskas.addItem('arbata', 95);
+onlineKioskas.addItem('arbata', 95);
 // "Meskiuko kioskas" sells arbata for 0.95 EUR now!
 
-// onlineKioskas.addItem('bulves', 135);
+onlineKioskas.addItem('bulves', 135);
 // "Meskiuko kioskas" sells bulves for 1.35 EUR now!
 
-// onlineKioskas.addItem('cepelinai', 195);
+onlineKioskas.addItem('cepelinai', 195);
 // "Meskiuko kioskas" sells cepelinai for 1.95 EUR now!
 
-// onlineKioskas.items();
+onlineKioskas.items();
 // KOMENTARAS: pavadinimai "gramatiskai taisyklingai"
 // Items for sale at "Meskiuko kioskas":
 // ====================
@@ -34,24 +34,24 @@ onlineKioskas.addItem('obuolys', 130);
 // 5) Cepelinai - 1.95 EUR;
 // ====================
 
-//onlineKioskas.updatePrice('bulves', 90);
+onlineKioskas.updatePrice('bulves', 90);
 // "Meskiuko kioskas" updated price and sells bulves for 0.90 EUR now!
 
-//onlineKioskas.createCart('Augustas');
+onlineKioskas.createCart('Augustas');
 // Augustas have an open cart at "Meskiuko kioskas"!
 
-//onlineKioskas.createCart('Barbora');
+onlineKioskas.createCart('Barbora');
 // Barbora have an open cart at "Meskiuko kioskas"!
 
-//onlineKioskas.addItemToCart('Augustas', 2, 1);
-//onlineKioskas.addItemToCart('Augustas', 4, 2);
-//onlineKioskas.addItemToCart('Augustas', 5, 1);
+onlineKioskas.addItemToCart('Augustas', 2, 1);
+onlineKioskas.addItemToCart('Augustas', 4, 2);
+onlineKioskas.addItemToCart('Augustas', 5, 1);
 
-//onlineKioskas.addItemToCart('Barbora', 1, 2);
-//onlineKioskas.addItemToCart('Barbora', 3, 1);
-//onlineKioskas.addItemToCart('Barbora', 5, 1);
+onlineKioskas.addItemToCart('Barbora', 1, 2);
+onlineKioskas.addItemToCart('Barbora', 3, 1);
+onlineKioskas.addItemToCart('Barbora', 5, 1);
 
-//onlineKioskas.order('Augustas');
+onlineKioskas.order('Augustas');
 /*
 {
     owner: 'Augustas',
@@ -63,7 +63,7 @@ onlineKioskas.addItem('obuolys', 130);
 }
 */
 
-//onlineKioskas.order('Barbora');
+onlineKioskas.order('Barbora');
 /*
 {
     owner: 'Barbora',
@@ -75,28 +75,28 @@ onlineKioskas.addItem('obuolys', 130);
 }
 */
 
-//onlineKioskas.orderPrice('Augustas');
+onlineKioskas.orderPrice('Augustas');
 // Augustas order: 5.30 EUR.
 
-//onlineKioskas.orderPrice('Barbora');
+onlineKioskas.orderPrice('Barbora');
 // Barbora order: 5.50 EUR.
 
-//onlineKioskas.removeItem('obuolys');
+onlineKioskas.removeItem('obuolys');
 // No more obuolys at "Meskiuko kioskas"!
 
-//onlineKioskas.removeItem('morka');
+onlineKioskas.removeItem('morka');
 // No more obuolys at "Meskiuko kioskas"!
 
-//onlineKioskas.pay('Augustas', 500);
+onlineKioskas.pay('Augustas', 400);
 // Need more money!
 
-//onlineKioskas.pay('Augustas', 600);
+onlineKioskas.pay('Augustas', 600);
 // Here is your 0.70 EUR change!\nThank you for purchasing at "Meskiuko kioskas"!
 
-//onlineKioskas.pay('Barbora', 550);
+onlineKioskas.pay('Barbora', 550);
 // Thank you for purchasing at "Meskiuko kioskas"!
 
-//onlineKioskas.addItemToCart('Augustas', 2, 1);
+onlineKioskas.addItemToCart('Augustas', 3, 1);
 // You can not add items to already paid cart!
 
 //onlineKioskas.addItemToCart('John', 3, 1);
